@@ -1,5 +1,7 @@
 # TIM 白名单
 
+> 记得检查Tim安装位置、Windows Temp位置(`%TEMP%`) 是否与规则相符
+
 不允许访问 C:\Users 和其他所有盘符，但开放以下文件夹：
 
 ```C:\ProgramData\Tencent\*
@@ -11,7 +13,7 @@ C:\Users\*\Documents\Tencent Files\*
 C:\Users\*\AppData\LocalLow\Microsoft\CryptnetUrlCache\*
 C:\Users\*\AppData\Roaming\Microsoft\Crypto\*
 C:\Users\*\AppData\Local\Microsoft\Windows\Caches\*
-C:\Windows\Temp\*
+C:\Windows\Temp\* // Windows Temp位置(`%TEMP%`)
 C:\Users\*\AppData\Local\Temp\*
 C:\Users\*\AppData\LocalLow\Temp\*
 ```
